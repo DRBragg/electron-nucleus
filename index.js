@@ -7,7 +7,6 @@ const WebSocket = require('ws')
 
 const Store = require('electron-store')
 const store = new Store({
-	encryptionKey: 's0meR1nd0mK3y', // for obfuscation
 	name: 'nucleus' // Doesn't interferate if app is using electron-store
 })
 
